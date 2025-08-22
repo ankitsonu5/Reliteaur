@@ -126,15 +126,14 @@
   font-style: normal;
 }
 
-.header{background:  rgba(240, 128, 0, 0.31);
- 
-
+.header{
+background:  rgba(240, 128, 0, 0.31);
 background-blend-mode: multiply;
-min-height: 119px;
- 
+min-height: 119px; 
 }
 
-.videobanner {position: absolute;
+.videobanner {
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -143,7 +142,8 @@ min-height: 119px;
   z-index: -1;
 }
 
-.logo {width: 100px;
+.logo {
+  width: 100px;
   height: auto;
   margin: 0 auto;
   padding-top: 10px;
