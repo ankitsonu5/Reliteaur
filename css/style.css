@@ -1,5 +1,10 @@
- 
-.container-app {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .container-app {
   width: 100%;
   max-width: 100%;
   margin-inline: auto;
@@ -16,8 +21,8 @@
   .container-app {
     max-width: 1820px;
   }
-}
- 
+} */
+
 .vina-sans-regular {
   font-family: "Vina Sans", sans-serif;
   font-weight: 400;
@@ -126,15 +131,15 @@
   font-style: normal;
 }
 
-.header{
-background:  rgba(240, 128, 0, 0.31);
-background-blend-mode: multiply;
-min-height: 119px; 
+.header {
+  background-blend-mode: multiply;
+  font-family: sans-serif;
+  min-height: 119px;
 }
 
 .videobanner {
   position: absolute;
-  top: 0;
+  top: -32px;
   left: 0;
   width: 100%;
   height: auto;
@@ -145,6 +150,701 @@ min-height: 119px;
 .logo {
   width: 100px;
   height: auto;
-  margin: 0 auto;
-  padding-top: 10px;
 }
+
+.header .row {
+  display: flex;
+  justify-content: space-between;
+  padding: 36px 0 0 0;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 48px;
+}
+
+.navbar ul li {
+  list-style-type: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.active-menu {
+  font-weight: 700;
+}
+
+.text-container-video {
+  width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8rem;
+  position: relative;
+}
+
+.text-container-video .text-div-one {
+  flex: 1;
+}
+
+.text-container-video .text-div-one div {
+  margin-top: 64px;
+}
+
+.text-container-video .text-div-two {
+  flex: 1;
+  right: 0px;
+  position: absolute;
+}
+.text-container-video .text-div-two .fun-fact img{
+  top: 20rem;
+  left: 0;
+  position: absolute;
+}
+
+.text-container-video .text-div-one h1 {
+font-size: 6rem;
+padding-right: 148px;
+font-weight: 700;
+color: #fff;
+font-family: "Vina Sans";
+font-size: 130px;
+font-style: normal;
+font-weight: 400;
+line-height: 110px; /* 84.615% */
+}
+
+.text-container-video .text-div-one div a {
+border-radius: 147px;
+background: #B02673;
+padding: 16px 36px;
+color: #ffff;
+text-decoration: none;
+font-family: Livvic;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 35px; /* 145.833% */
+}
+
+.text-div-two>img:nth-child(1) {
+  position: absolute;
+  top: -124px;
+}
+
+.text-div-two>img:nth-child(2) {
+  position: absolute;
+  top: -76px;
+  left: 128px;
+}
+
+.taste-lead img:nth-child(1) {
+  display: block;
+}
+
+/* origin story */
+.product-item-section {
+  background: #D9D9D9;
+  padding: 48px;
+  margin-top: 448px;
+}
+
+.product-item-section .container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+  gap: 24px;
+}
+
+.div-one {
+  background: transparent;
+  border: 1px solid red;
+  width: 450px;
+  /* height: 750px; */
+  border-radius: 24px;
+  padding: 36px;
+}
+
+.div-one h2 {
+  color: #F09600;
+  font-size: 42px;
+  font-family: "Vina Sans";
+}
+
+.div-one h5 {
+  color: #7C7C7C;
+  font-family: "Caveat Brush";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  /* 100% */
+}
+
+.div-one p {
+  color: #858585;
+  font-family: Livvic;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  /* 125% */
+}
+
+.div-one img {
+  margin-top: 48px;
+}
+
+/* origin story section */
+#origin-story-section {
+  background: url(../images/origin-story/origin-bg.png);
+  /* width: 100%; */
+  background-size: cover;
+  background-position: center;
+  padding: 85px 0;
+}
+
+#origin-story-section .container-app {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+}
+
+.origin-text {
+  flex: 1;
+  /* padding: 136px; */
+}
+
+.origin-img {
+  flex: 1;
+}
+
+.origin-img img {
+  border-radius: 24px;
+}
+
+.origin-text-top h1 {
+  color: #B02673;
+  font-family: "Vina Sans";
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px;
+  /* 100% */
+}
+
+.origin-text-top h4 {
+  color: #FFF;
+  font-family: "Caveat Brush";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  /* 100% */
+  margin-top: 36px;
+}
+
+.origin-text-top p {
+  color: #FFF;
+  font-family: Livvic;
+  margin-top: 24px;
+  margin-bottom: 18px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  /* 125% */
+}
+
+.origin-text-bottom p {
+  color: #FFF;
+  font-family: Livvic;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  /* 125% */
+}
+
+.origin-text-bottom h4 {
+  color: #FFF;
+  font-family: "Caveat Brush";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  /* 100% */
+  margin-top: 48px;
+  margin-bottom: 24px;
+}
+
+/* taste revolution style start */
+#taste-revolution {
+  padding: 136px 0;
+}
+
+.head-content {
+  margin-bottom: 48px;
+}
+
+.head-content h1 {
+  color: #F09600;
+  font-family: "Vina Sans";
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 75px;
+  margin-bottom: 48px;
+}
+
+.head-content p {
+  color: #635C5C;
+  font-family: "Caveat Brush";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  /* 100% */
+}
+
+sl-carousel-item img {
+  border-radius: 16px;
+}
+
+.slide-cont {
+  padding: 24px;
+}
+
+.slide-cont h4 {
+  color: #635C5C;
+  font-family: Livvic;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  /* 80% */
+}
+
+.slide-cont h2 {
+  color: #F09600;
+  font-family: Livvic;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  /* 80% */
+}
+
+.slide-cont p {
+  color: #635C5C;
+  font-family: Livvic;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* taste revolution style end */
+
+/* stay-in-to-know style start */
+#stay-in-to-know {
+  background-color: #F09600;
+  width: 100%;
+  padding: 124px 0;
+}
+
+#stay-in-to-know .container-app {
+  padding: 48px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 36px;
+  padding: 36px;
+}
+
+#stay-in-to-know .stay-in-to-know-heading h1 {
+  color: #fff;
+  font-family: "Vina Sans";
+  font-size: 80px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  line-height: 110px;
+  /* 137.5% */
+}
+
+#stay-in-to-know .box-div {
+  /* flex-shrink: 0; */
+  background-color: #fff;
+  border-radius: 22px;
+  padding: 16px;
+  transition: all 0.3s;
+}
+
+#stay-in-to-know .box-div:hover {
+  transform: scale(1.1);
+}
+
+#stay-in-to-know .icon-top-bar {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#stay-in-to-know .icon-design {
+  width: 54px;
+  height: 54px;
+  background-color: #F09600;
+  border-radius: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#stay-in-to-know .box-items-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+/* stay-in-to-know style end */
+
+
+/* the-certification-story style start */
+#the-certification-story {
+  padding-top: 164px;
+  padding-bottom: 298px;
+  position: relative;
+}
+
+#the-certification-story>img {
+  position: absolute;
+  top: -64px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 332px;
+}
+
+#the-certification-story .container-app {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+#the-certification-story .certificate-story-text-cont {
+  flex: 1;
+}
+
+#the-certification-story .certificate-story-text-cont h1 {
+  color: #F09600;
+  font-family: "Vina Sans";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 75px;
+  margin-bottom: 24px;
+}
+
+#the-certification-story .certificate-story-text-cont>p {
+  color: #635C5C;
+  font-family: "Caveat Brush";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  /* 100% */
+}
+
+#the-certification-story .text-div-one {
+  margin-top: 42px;
+  margin-bottom: 42px;
+}
+
+#the-certification-story .text-div-one h5 {
+  color: #635C5C;
+  font-family: Livvic;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  /* 125% */
+  margin-bottom: 16px;
+}
+
+#the-certification-story .text-div-one p {
+  color: #635C5C;
+  font-family: Livvic;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+#the-certification-story .text-div-two h5 {
+  color: #635C5C;
+  font-family: Livvic;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  /* 125% */
+  margin-bottom: 16px;
+}
+
+#the-certification-story .text-div-two>p {
+  margin-bottom: 16px;
+}
+
+#the-certification-story .text-div-two ul {
+  margin-left: 24px;
+}
+
+#the-certification-story .text-div-two ul li {
+  color: #635C5C;
+  font-family: Livvic;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+#the-certification-story .text-div-two .div-two-para-lst {
+  color: #635C5C;
+  font-family: Livvic;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+#the-certification-story .certificate-story-img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 36px;
+}
+
+#the-certification-story .certificate-story-img-cont {
+  flex: 1;
+  background-color: #F8F8F8;
+  padding: 124px 75px;
+  border-radius: 28px;
+}
+
+/* the-certification-story style end */
+
+/* gluten-free-trivia style start */
+#gluten-free-trivia {
+  background-color: #43C2CC;
+  padding-top: 148px;
+  padding-bottom: 96px;
+  position: relative;
+}
+
+#gluten-free-trivia .gluten-free-ctr-bg img {
+  position: absolute;
+  top: -22%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#gluten-free-trivia .container-app {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+#gluten-free-trivia .gluten-free-science-fact {
+  margin-bottom: 64px;
+}
+
+#gluten-free-trivia .gluten-free-reliteaur-facts {}
+
+#gluten-free-trivia .origin-text-top h1 {
+  margin-bottom: 48px;
+}
+
+#gluten-free-trivia .gluten-free-science-fact h3,
+#gluten-free-trivia .gluten-free-reliteaur-facts h3 {
+  color: #FFF;
+  font-family: "Caveat Brush";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  /* 62.5% */
+  margin-bottom: 36px;
+}
+
+#gluten-free-trivia .cont-box {
+  margin-bottom: 24px;
+}
+
+#gluten-free-trivia .cont-box h5 {
+  color: #FFF;
+  font-family: Livvic;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  margin-bottom: 5px;
+}
+
+#gluten-free-trivia .cont-box p {
+  color: #FFF;
+  font-family: Livvic;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+/* gluten-free-trivia style end */
+
+/* footer style start */
+#footer {
+  margin: 85px 0 85px 0;
+}
+
+#footer .container-app {
+  display: flex;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+#footer .footer-main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer .footer-cont-top {
+  display: flex;
+  gap: 48px;
+}
+.footer-menu, .footer-products, .Contact-us, .address-section, .follow-us {
+  flex: 1;
+}
+#footer .footer-menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#footer .footer-menu ul li {
+  list-style-type: none;
+}
+
+#footer .footer-menu ul li a {
+  text-decoration: none;
+  color: #635C5C;
+  font-family: Livvic;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  /* 146.667% */
+}
+
+#footer .footer-products h4 {
+  color: #635C5C;
+  font-family: Livvic;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  margin-bottom: 24px;
+}
+
+#footer .footer-products ul li {
+  list-style-type: none;
+}
+#footer .footer-products ul li a {
+  text-decoration: none;
+  color: #635C5C;
+font-family: Livvic;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+}
+#footer .Contact-us h4{
+  color: #635C5C;
+  font-family: Livvic;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  margin-bottom: 24px;
+}
+#footer .Contact-us ul li{
+list-style-type: none;
+}
+#footer .Contact-us ul li a{
+  text-decoration: none;
+  color: #635C5C;
+  font-family: Livvic;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+#footer .address-section h4{
+  color: #635C5C;
+  font-family: Livvic;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  margin-bottom: 24px;
+}
+#footer .address-section p{
+  color: #635C5C;
+  font-family: Livvic;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+#footer .follow-us h4{
+  color: #635C5C;
+font-family: Livvic;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; /* 146.667% */
+margin-bottom: 24px;
+}
+#footer .social-link {
+display: flex;
+gap: 12px;
+}
+#footer .social-link div i {
+  font-size: 32px;
+  color: #635C5C;
+}
+
+
+#footer .footer-cont-bottom {
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #979797;
+  border-bottom: 1px solid #979797;
+  margin-top: 12px;
+}
+
+#footer .footer-cont-bottom p {
+  color: #635C5C;
+  font-family: Livvic;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+/* footer style end */
