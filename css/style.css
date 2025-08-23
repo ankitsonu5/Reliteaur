@@ -410,6 +410,9 @@ line-height: 35px; /* 145.833% */
   /* 100% */
 }
 
+sl-carousel-item {
+  height: 100%;
+}
 sl-carousel-item img {
   border-radius: 16px;
 }
@@ -425,6 +428,7 @@ sl-carousel-item img {
   font-style: normal;
   font-weight: 700;
   line-height: 16px;
+  margin-bottom: 20px;
   /* 80% */
 }
 
@@ -435,6 +439,7 @@ sl-carousel-item img {
   font-style: normal;
   font-weight: 700;
   line-height: 32px;
+  margin-bottom: 20px;
   /* 80% */
 }
 
