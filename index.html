@@ -7,13 +7,12 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- 
+
 
     <link
+        href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Vina+Sans&display=swap"
+        rel="stylesheet">
 
-    href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Vina+Sans&display=swap"
-    rel="stylesheet">
-   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/light.css" />
     <script type="module"
         src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/shoelace-autoloader.js"></script>
@@ -22,63 +21,114 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
         integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- shoelac cdn file  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/light.css" />
+    <script type="module"
+        src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/shoelace-autoloader.js"></script>
+    <!-- custom css file link -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
 
 </head>
 
 <body>
-    <div class="navbar">
+    <!-- desktop version code videobanner and navbar -->
+    <video class="videobanner only-desktop" src="./videos/hero2.mp4" autoplay="" muted="" loop=""></video>
+    <div class="navbar only-desktop">
         <div class="navbar-menu">
-        <div class="container">
-            <div class="header">
-                <div class="row" style="display: flex;">
-                    <div class="logo">
-                        <img src="./images/logo.svg" alt="">
+            <div class="container">
+                <div class="header">
+                    <div class="row" style="display: flex;">
+                        <div class="logo">
+                            <img src="./images/logo.svg" alt="">
+                        </div>
+                        <div class="navbar-lists">
+                            <ul style="position: relative;">
+                                <li><a href="#">Home</a></li>
+                                <li class="navbar-list-item"><a href="#">Our Product <i
+                                            class="fa-solid fa-chevron-down"></i>
+                                        <ul class="navbar-dropdown">
+                                            <li><a href="">Gluten-free Chapathi Mix</a></li>
+                                            <li><a href="">Gluten-free Multipurpose mix</a></li>
+                                            <li><a href="">Gluten-free Pancake Mix</a></li>
+                                        </ul>
+                                    </a></li>
+                                <li><a href="#">Recipe</a></li>
+                                <li><a href="#">Blogs</a></li>
+                                <li><a href="#">Contact us</a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="navbar-lists">
-                        <ul style="position: relative;">
-                            <li><a href="#">Home</a></li>
-                            <li class="navbar-list-item"><a href="#">Our Product <i class="fa-solid fa-chevron-down"></i>
-                            <ul class="navbar-dropdown">
-                                <li><a href="">Gluten-free Chapathi Mix</a></li>
-                                <li><a href="">Gluten-free Multipurpose mix</a></li>
-                                <li><a href="">Gluten-free Pancake Mix</a></li> 
-                            </ul></a></li>
-                            <li><a href="#">Recipe</a></li>
-                            <li><a href="#">Blogs</a></li>
-                            <li><a href="#">Contact us</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="text-container-video">
-                <div class="text-div-one">
-                    <h1>The Great<br>Gluten-Free<br> Awakening</h1>
-                    <div>
-                        <a href="#">Taste the magic</a>
-                        <a href="#">Join the revolution</a>
-                    </div>
-                </div>
-                <div class="text-div-two">
-                    <img src="./images/hero-img/Heart-one.png" alt="">
-                    <img src="./images/hero-img/Heart-two.png" alt="">
-                    <div class="taste-lead">
-                        <img src="./images/hero-img/taste-lead.png" alt="">
-                        <img src="./images/hero-img/Vector-arrow.png" alt="">
-                    </div>
-                    <div class="fun-fact">
-                        <img src="./images/funFact-arrow.png" alt="">
-                        <img src="./images/funFact-text.png" alt="">
-                    </div>
-                    <img src="" alt="">
                 </div>
             </div>
         </div>
     </div>
+    <div class="text-container-video only-desktop">
+        <div class="text-div-one">
+            <h1>The Great<br>Gluten-Free<br> Awakening</h1>
+            <div>
+                <a href="#">Taste the magic</a>
+                <a href="#">Join the revolution</a>
+            </div>
+        </div>
+        <div class="text-div-two">
+            <img src="./images/hero-img/Heart-one.png" alt="">
+            <img src="./images/hero-img/Heart-two.png" alt="">
+            <div class="taste-lead">
+                <img src="./images/hero-img/taste-lead.png" alt="">
+                <img src="./images/hero-img/Vector-arrow.png" alt="">
+            </div>
+            <div class="fun-fact">
+                <img src="./images/funFact-arrow.png" alt="">
+                <img src="./images/funFact-text.png" alt="">
+            </div>
+            <img src="" alt="">
+        </div>
+    </div>
 
-    <!-- products items SECTION -->
-    <section class="product-item-section">
+
+    <!-- Mobile version code videobanner and navbar -->
+    <video class="videobanner-mobile only-mobile" src="./videos/hero-mobile-img/Hero-2.mp4" autoplay="" muted=""
+        loop="">
+    </video>
+    <div class="navbar-mobile only-mobile">
+        <div class="navbar-mobile-container">
+            <div class="navbar-logo">
+                <a href=""><img style="display: inline-block;" src="./images/logo.svg" alt=""></a>
+            </div>
+            <div class="navbar-menu-mb">
+                <div><a href=""><i style="display: inline-block;" class="fa-solid fa-bars navbar-menu-icon-mb"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-mobile-container-video only-mobile">
+        <div class="text-div-one-mb">
+            <h1>The Great<br>Gluten-Free<br> Awakening</h1>
+            <div>
+                <a href="#">Taste the magic</a>
+                <a href="#">Join the revolution</a>
+            </div>
+        </div>
+        <div class="text-div-two-mb">
+            <div class="funFact-taste">
+                <img src="./images/hero-img/Heart-one.png" alt="">
+                <img src="./images/hero-img/Heart-two.png" alt="">
+                <div class="taste-lead">
+                    <img src="./images/hero-img/taste-lead.png" alt="">
+                    <img src="./images/hero-img/Vector-arrow.png" alt="">
+                </div>
+            </div>
+            <div class="fun-fact">
+                <img src="./images/hero-img/mb/certified-gluten-free.png" alt="">
+                <img src="./images/funFact.png" alt="">
+            </div>
+            <img src="" alt="">
+        </div>
+    </div>
+
+    <!--desktop products items SECTION -->
+    <section class="product-item-section only-desktop">
         <div class="container">
             <div class="div-one">
                 <h2>GLUTEN-FREE FLATBREAD FLOUR</h2>
@@ -109,8 +159,59 @@
         </div>
     </section>
 
-    <!-- origin story section -->
-    <section id="origin-story-section">
+    <!-- mobile products items SECTION -->
+    <div class="slider-wrapper only-mobile">
+        <div class="slider-container">
+            <div class="slider" id="slider">
+                <div class="slide">
+                    <div class="div-one">
+                        <h2>GLUTEN-FREE FLATBREAD FLOUR</h2>
+                        <h5>The Flatbread Whisperer</h5>
+                        <p>Soft, stretchy, and surprisingly addictive. Makes 20 perfect chapathis that'll have your
+                            family
+                            asking for your secret. Tasteful Surprise: The secret is it's gluten-free!</p>
+                        <img src="./images/origin-story/div-one-img.png" alt="">
+                        <img class="div-one-art" src="./images/origin-story/AI_Image1-1.png" alt="">
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="div-one">
+                        <img class="div-two-main" src="./images/origin-story/div-two-img.png" alt="">
+                        <img class="div-two-art" src="./images/origin-story/AI_Image-2.png" alt="">
+                        <h2>GLUTEN-FREE
+                            FLATBREAD FLOUR</h2>
+                        <h5>The Flatbread Whisperer</h5>
+                        <p>Soft, stretchy, and surprisingly addictive. Makes 20 perfect chapathis that'll have your
+                            family
+                            asking for your secret. Tasteful Surprise: The secret is it's gluten-free!</p>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="div-one">
+                        <h2>GLUTEN-FREE
+                            FLATBREAD FLOUR</h2>
+                        <h5>The Flatbread Whisperer</h5>
+                        <p>Soft, stretchy, and surprisingly addictive. Makes 20 perfect chapathis that'll have your
+                            family
+                            asking for your secret. Tasteful Surprise: The secret is it's gluten-free!</p>
+                        <img src="./images/origin-story/div-three-img.png" alt="">
+                        <img class="div-one-art" src="./images/origin-story/AI_Image-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pagination" id="pagination">
+            <div class="pagination-dot active" data-slide="0"></div>
+            <div class="pagination-dot" data-slide="1"></div>
+            <div class="pagination-dot" data-slide="2"></div>
+        </div>
+    </div>
+
+    <!-- desktop origin story section -->
+    <section id="origin-story-section" class="only-desktop">
         <div class="container-app">
             <div class="origin-text">
                 <div class="origin-text-top">
@@ -142,8 +243,41 @@
         </div>
     </section>
 
-    <!-- taste revolution section -->
-    <section id="taste-revolution">
+    <!-- mobile origin story section -->
+    <section id="origin-story-section" class="only-mobile">
+        <div class="container-app">
+            <div class="origin-text">
+                <div class="origin-text-top">
+                    <h1>The Origin Story: A Kitchen Revolution</h1>
+                    <h4>There was a Time...</h4>
+                    <p>When "gluten-free" meant "guilt-free". Where celiacs apologized for their dietary needs. Where
+                        gut-healthy food was seen as bland food.</p>
+                </div>
+                <div class="origin-text-bottom">
+                    <h4>Then Everything Changed.</h4>
+                    <p style="margin-bottom: 20px">When our founder Raguram Raghulal embraced a gluten-free lifestyle,
+                        he didn’t settle—he innovated. Like every gluten-free food seeker, he found himself asking the
+                        same questions: “Will I have to compromise on taste? Is it right for my palate? Will I miss out
+                        on delicious food?”</p>
+                    <p style="margin-bottom: 20px">He turned this concern and empathy into a tenacious drive towards
+                        making gluten-free cuisines desirable as any other loved tasty fare.</p>
+                    <p>Armed with decades of baking wizardry and an obsession with perfection, we set out to prove that
+                        gluten-free ingredients can indeed help you whip up the tastiest dishes. No love lost: only your
+                        tastebuds loving every bite.</p>
+                    <p>oday, we're rewriting the rules of what gluten-free can be. One delectable bite at a time.</p>
+                </div>
+            </div>
+            <div class="origin-sub-container">
+                <img src="/images/funFact.png" alt="">
+            </div>
+            <div class="origin-img">
+                <img src="./images/origin-story/pancake-img.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Desktop taste revolution section -->
+    <section id="taste-revolution" class="only-desktop">
         <div class="container-app">
             <div class="head-content">
                 <h1>THE GROWING GLUTEN-FREE ARMY<br>Welcome to the Taste Revolution</h1>
@@ -165,11 +299,11 @@
                             <h4>The Family Heroes</h4>
                             <h2>"Mixed dietary households made simple."</h2>
                             <p>
-                                <ul class="slide-count-ul">
+                            <ul class="slide-count-ul">
                                 <li>Ready to discover what "light and energetic" actually feels like</li>
                                 <li>Knows that gut-friendly food doesn't mean boring,but can be exciting.</li>
                             </ul>
-                        </p>
+                            </p>
                         </div>
                     </sl-carousel-item>
                     <sl-carousel-item><img src="./images/taste-revolution/slider-two.png" alt=""></sl-carousel-item>
@@ -178,12 +312,12 @@
                             <h4>The Celiac Champions</h4>
                             <h2>"Finally, food that doesn't make me feel like I deserve better”</h2>
                             <p>
-                                <ul class="slide-count-ul">
+                            <ul class="slide-count-ul">
                                 <li>You've been let down before, but we're different</li>
                                 <li>AOECS certified = internationally proven safe</li>
                                 <li>Every bite backed by 40+ celiac societies worldwide</li>
                             </ul>
-                        </p>
+                            </p>
                         </div>
                     </sl-carousel-item>
                     <sl-carousel-item><img src="./images/taste-revolution/slider-three.png" alt=""></sl-carousel-item>
@@ -192,12 +326,12 @@
                             <h4>The Taste Rebels</h4>
                             <h2>"I don't care about labels; I care about flavour"</h2>
                             <p>
-                                <ul class="slide-count-ul">
+                            <ul class="slide-count-ul">
                                 <li>Food lovers who refuse to compromise</li>
                                 <li>Why shouldn't I have indulgent food that's easy on my gut too.</li>
                                 <li>Making gluten eaters jealous since day one</li>
                             </ul>
-                        </p>
+                            </p>
                         </div>
                     </sl-carousel-item>
                     <sl-carousel-item><img src="./images/taste-revolution/slider-four.png" alt=""></sl-carousel-item>
@@ -206,9 +340,88 @@
             </div>
         </div>
     </section>
+    <!-- Mobile taste revolution section -->
+    <section id="taste-revolution-mb" class="only-mobile">
+        <h1>THE GROWING GLUTEN-FREE ARMY Welcome to the Taste Revolution</h1>
+        <p>Who's Joining Our Growing Community?</p>
+        <div class="carousel-wrapper">
+            <!-- Left Arrow - Outside Container -->
+            <button class="nav-arrow left" id="prevBtn">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
 
-    <!-- stay in to know section -->
-    <section id="stay-in-to-know">
+            <!-- Carousel Container -->
+            <div class="carousel-container">
+                <div class="carousel-track" id="carouselTrack">
+                    <!-- Slide 1 -->
+                    <div class="carousel-slide">
+                        <div class="text-content-div">
+                            <div class="slide-header">The Family Heroes</div>
+                            <div class="slide-title">"Mixed dietary households made simple."</div>
+                            <div class="slide-subtitle">A safe food ingredient option that even the rest of the family
+                                can try.</div>
+                        </div>
+                        <img src="./images/taste-revolution/slider-one.png" alt="" class="slide-image">
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-slide">
+                        <div class="text-content-div">
+                            <div class="slide-header">The Curious Explorers</div>
+                            <div class="slide-title">"Wait, this is supposed to be gut-friendly and indulgent?"</div>
+                            <div class="slide-subtitle">
+                                <li>The Curious Explorers Ready to discover what "light and energetic" actually feels like. Knows that gut-friendly food doesn’t mean boring,but can be exciting.</li>
+                                <li>Knows that gut-friendly food doesn’t mean boring,but can be exciting. </li>
+                            </div>
+                        </div>
+                        <img src="./images/taste-revolution/slider-two.png" alt="" class="slide-image">
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="carousel-slide">
+                        <div class="text-content-div">
+                            <div class="slide-header">The Family Heroes</div>
+                            <div class="slide-title">"Mixed dietary households made simple."</div>
+                            <div class="slide-subtitle">
+                                <li>You've been let down before, but we're different</li>
+                                <li>AOECS certified = internationally proven safe</li>
+                                <li>Every bite backed by 40+ celiac societies worldwide</li>
+                            </div>
+                        </div>
+                        <img src="./images/taste-revolution/slider-three.png" alt="" class="slide-image">
+                    </div>
+                    <!-- Slide 4 -->
+                    <div class="carousel-slide">
+                        <div class="text-content-div">
+                            <div class="slide-header">The Taste Rebels</div>
+                            <div class="slide-title">"I don't care about labels; I care about flavour"</div>
+                            <div class="slide-subtitle">
+                                <li>Food lovers who refuse to compromise</li>
+                                <li>Why shouldn’t I have indulgent food that’s easy on my gut too.</li>
+                                <li>Making gluten eaters jealous since day one</li>
+                            </div>
+                        </div>
+                        <img src="./images/taste-revolution/slider-four.png" alt="" class="slide-image">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Arrow - Outside Container -->
+            <button class="nav-arrow right" id="nextBtn">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+            <!-- Pagination Dots - Outside Bottom -->
+            <div class="pagination-dots" id="paginationDots">
+                <div class="dot active" data-slide="0"></div>
+                <div class="dot" data-slide="1"></div>
+                <div class="dot" data-slide="2"></div>
+                <div class="dot" data-slide="3"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Desktop stay in to know section -->
+    <section id="stay-in-to-know" class="only-desktop">
         <div class="container-app stay-in-to-know-heading">
             <h1>Stay in to know</h1>
         </div>
@@ -278,8 +491,12 @@
             </div>
         </div>
     </section>
+    <!-- Mobile stay in to know section -->
+    <section id="stay-in-to-know-mb" class="only-mobile">
+
+    </section>
     <!-- the certification story -->
-    <section id="the-certification-story">
+    <section id="the-certification-story" class="only-desktop">
         <img src="./images/the-certificate-story/roti.png" alt="">
         <div class="container-app">
             <div class="certificate-story-text-cont">
@@ -315,7 +532,7 @@
         </div>
     </section>
     <!-- Gluten-Free Trivia -->
-    <section id="gluten-free-trivia">
+    <section id="gluten-free-trivia" class="only-desktop">
         <div class="gluten-free-ctr-bg">
             <img src="./images/gluten-free-trivia/pancake-ctr-bg.png" alt="">
         </div>
@@ -364,7 +581,7 @@
         </div>
     </section>
     <!-- footer section -->
-    <footer id="footer">
+    <footer id="footer" class="only-desktop">
         <div class="container-app">
             <div class="logo-footer">
                 <img src="./images/footer/logo-vertical.png" alt="">
@@ -417,8 +634,297 @@
             </div>
         </div>
     </footer>
+
+    <!-- slider-wrapper script code mobile only  -->
+    <script>
+        class ProductSlider {
+            constructor() {
+                this.slider = document.getElementById('slider');
+                this.pagination = document.getElementById('pagination');
+                this.dots = this.pagination.querySelectorAll('.pagination-dot');
+                this.progressBars = document.querySelectorAll('.progress-bar');
+
+                this.currentSlide = 0;
+                this.totalSlides = 3;
+                this.autoSlideInterval = null;
+
+                this.init();
+            }
+
+            init() {
+                this.bindEvents();
+                this.startAutoSlide();
+            }
+
+            bindEvents() {
+                // Pagination click events
+                this.dots.forEach((dot, index) => {
+                    dot.addEventListener('click', () => {
+                        this.goToSlide(index);
+                        this.restartAutoSlide();
+                    });
+                });
+
+                // Pause auto-slide on hover
+                this.slider.parentElement.addEventListener('mouseenter', () => {
+                    this.pauseAutoSlide();
+                });
+
+                this.slider.parentElement.addEventListener('mouseleave', () => {
+                    this.startAutoSlide();
+                });
+
+                // Keyboard navigation
+                document.addEventListener('keydown', (e) => {
+                    if (e.key === 'ArrowLeft') {
+                        this.previousSlide();
+                        this.restartAutoSlide();
+                    } else if (e.key === 'ArrowRight') {
+                        this.nextSlide();
+                        this.restartAutoSlide();
+                    }
+                });
+
+                // Touch/swipe support
+                let startX = 0;
+                let endX = 0;
+
+                this.slider.addEventListener('touchstart', (e) => {
+                    startX = e.touches[0].clientX;
+                    this.pauseAutoSlide();
+                });
+
+                this.slider.addEventListener('touchend', (e) => {
+                    endX = e.changedTouches[0].clientX;
+                    const diff = startX - endX;
+
+                    if (Math.abs(diff) > 50) {
+                        if (diff > 0) {
+                            this.nextSlide();
+                        } else {
+                            this.previousSlide();
+                        }
+                    }
+
+                    this.restartAutoSlide();
+                });
+            }
+
+            goToSlide(slideIndex) {
+                this.currentSlide = slideIndex;
+                this.updateSlider();
+                this.updatePagination();
+                this.restartProgressBar();
+            }
+
+            nextSlide() {
+                this.currentSlide = (this.currentSlide + 1) % this.totalSlides;
+                this.updateSlider();
+                this.updatePagination();
+                this.restartProgressBar();
+            }
+
+            previousSlide() {
+                this.currentSlide = (this.currentSlide - 1 + this.totalSlides) % this.totalSlides;
+                this.updateSlider();
+                this.updatePagination();
+                this.restartProgressBar();
+            }
+
+            updateSlider() {
+                const translateX = -this.currentSlide * 100;
+                this.slider.style.transform = `translateX(${translateX}%)`;
+            }
+
+            updatePagination() {
+                this.dots.forEach((dot, index) => {
+                    if (index === this.currentSlide) {
+                        dot.classList.add('active');
+                    } else {
+                        dot.classList.remove('active');
+                    }
+                });
+            }
+
+            restartProgressBar() {
+                // Remove animation from all progress bars
+                this.progressBars.forEach(bar => {
+                    bar.style.animation = 'none';
+                    bar.offsetHeight; // Trigger reflow
+                });
+
+                // Add animation to current slide's progress bar
+                const currentProgressBar = this.progressBars[this.currentSlide];
+                currentProgressBar.style.animation = 'progress 6s linear';
+            }
+
+            startAutoSlide() {
+                this.autoSlideInterval = setInterval(() => {
+                    this.nextSlide();
+                }, 600000);
+                this.restartProgressBar();
+            }
+
+            pauseAutoSlide() {
+                if (this.autoSlideInterval) {
+                    clearInterval(this.autoSlideInterval);
+                    this.autoSlideInterval = null;
+                }
+            }
+
+            restartAutoSlide() {
+                this.pauseAutoSlide();
+                this.startAutoSlide();
+            }
+        }
+
+        // Initialize slider when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            new ProductSlider();
+        });
+    </script>
+
+    <!-- slider code for taste mobile revolution screen only -->
+    <script>
+        class MobileCarousel {
+            constructor() {
+                this.track = document.getElementById('carouselTrack');
+                this.prevBtn = document.getElementById('prevBtn');
+                this.nextBtn = document.getElementById('nextBtn');
+                this.dots = document.getElementById('paginationDots');
+                this.currentSlide = 0;
+                this.totalSlides = 4;
+
+                this.init();
+            }
+
+            init() {
+                this.updateCarousel();
+                this.bindEvents();
+            }
+
+            bindEvents() {
+                // Arrow buttons
+                this.prevBtn.addEventListener('click', () => this.prevSlide());
+                this.nextBtn.addEventListener('click', () => this.nextSlide());
+
+                // Pagination dots
+                this.dots.addEventListener('click', (e) => {
+                    if (e.target.classList.contains('dot')) {
+                        const slideIndex = parseInt(e.target.dataset.slide);
+                        this.goToSlide(slideIndex);
+                    }
+                });
+
+                // Touch/swipe support
+                let startX = 0;
+                let currentX = 0;
+                let isDragging = false;
+
+                this.track.addEventListener('touchstart', (e) => {
+                    startX = e.touches[0].clientX;
+                    isDragging = true;
+                });
+
+                this.track.addEventListener('touchmove', (e) => {
+                    if (!isDragging) return;
+                    currentX = e.touches[0].clientX;
+                });
+
+                this.track.addEventListener('touchend', () => {
+                    if (!isDragging) return;
+                    isDragging = false;
+
+                    const diff = startX - currentX;
+                    const threshold = 50;
+
+                    if (diff > threshold) {
+                        this.nextSlide();
+                    } else if (diff < -threshold) {
+                        this.prevSlide();
+                    }
+                });
+
+                // Keyboard navigation
+                document.addEventListener('keydown', (e) => {
+                    if (e.key === 'ArrowLeft') this.prevSlide();
+                    if (e.key === 'ArrowRight') this.nextSlide();
+                });
+            }
+
+            prevSlide() {
+                if (this.currentSlide > 0) {
+                    this.currentSlide--;
+                    this.updateCarousel();
+                }
+            }
+
+            nextSlide() {
+                if (this.currentSlide < this.totalSlides - 1) {
+                    this.currentSlide++;
+                    this.updateCarousel();
+                }
+            }
+
+            goToSlide(index) {
+                if (index >= 0 && index < this.totalSlides) {
+                    this.currentSlide = index;
+                    this.updateCarousel();
+                }
+            }
+
+            updateCarousel() {
+                // Move the track
+                const translateX = -this.currentSlide * (100 / this.totalSlides);
+                this.track.style.transform = `translateX(${translateX}%)`;
+
+                // Update navigation arrows
+                this.prevBtn.classList.toggle('disabled', this.currentSlide === 0);
+                this.nextBtn.classList.toggle('disabled', this.currentSlide === this.totalSlides - 1);
+
+                // Update pagination dots
+                document.querySelectorAll('.dot').forEach((dot, index) => {
+                    dot.classList.toggle('active', index === this.currentSlide);
+                });
+            }
+        }
+
+        // Initialize carousel when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            new MobileCarousel();
+        });
+
+        // Auto-play functionality (optional)
+        let autoplayInterval;
+
+        function startAutoplay() {
+            autoplayInterval = setInterval(() => {
+                const carousel = window.carousel;
+                if (carousel && carousel.currentSlide < carousel.totalSlides - 1) {
+                    carousel.nextSlide();
+                } else if (carousel) {
+                    carousel.goToSlide(0); // Loop back to first slide
+                }
+            }, 5000);
+        }
+
+        function stopAutoplay() {
+            if (autoplayInterval) {
+                clearInterval(autoplayInterval);
+            }
+        }
+
+        // Store carousel instance globally for autoplay
+        document.addEventListener('DOMContentLoaded', () => {
+            window.carousel = new MobileCarousel();
+            // Uncomment the next line to enable autoplay
+            // startAutoplay();
+        });
+    </script>
+
     
-<!-- javascript script js -->
-<script src="./js/script.js"></script>
+    <!-- javascript script js -->
+    <script src="./js/script.js"></script>
 </body>
+
 </html>
