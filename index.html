@@ -5,39 +5,420 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  
 
     <link
+
     href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Vina+Sans&display=swap"
     rel="stylesheet">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
-      <link rel="stylesheet" href="css/style.css">
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/light.css" />
+    <script type="module"
+        src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/shoelace-autoloader.js"></script>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 
 </head>
 
 <body>
-    <video class="videobanner" src="./videos/hero2.mp4" autoplay muted loop></video>
-    <div class="header">
-        <div class="container-app">
-            <div class="row" style="display: flex;">
-                <div class="logo">
-                    <img src="./images/logo.svg" alt="">
+    <div class="navbar">
+        <div class="navbar-menu">
+        <div class="container">
+            <div class="header">
+                <div class="row" style="display: flex;">
+                    <div class="logo">
+                        <img src="./images/logo.svg" alt="">
+                    </div>
+                    <div class="navbar-lists">
+                        <ul style="position: relative;">
+                            <li><a href="#">Home</a></li>
+                            <li class="navbar-list-item"><a href="#">Our Product <i class="fa-solid fa-chevron-down"></i>
+                            <ul class="navbar-dropdown">
+                                <li><a href="">Gluten-free Chapathi Mix</a></li>
+                                <li><a href="">Gluten-free Multipurpose mix</a></li>
+                                <li><a href="">Gluten-free Pancake Mix</a></li> 
+                            </ul></a></li>
+                            <li><a href="#">Recipe</a></li>
+                            <li><a href="#">Blogs</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="navbar">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Our Product</a></li>
-                        <li><a href="#">Recipe</a></li>
-                        <li><a href="#">Blogs</a></li>
-                        <li><a href="#">Contact us</a></li>
-                    </ul>
+            </div>
+            <div class="text-container-video">
+                <div class="text-div-one">
+                    <h1>The Great<br>Gluten-Free<br> Awakening</h1>
+                    <div>
+                        <a href="#">Taste the magic</a>
+                        <a href="#">Join the revolution</a>
+                    </div>
+                </div>
+                <div class="text-div-two">
+                    <img src="./images/hero-img/Heart-one.png" alt="">
+                    <img src="./images/hero-img/Heart-two.png" alt="">
+                    <div class="taste-lead">
+                        <img src="./images/hero-img/taste-lead.png" alt="">
+                        <img src="./images/hero-img/Vector-arrow.png" alt="">
+                    </div>
+                    <div class="fun-fact">
+                        <img src="./images/funFact-arrow.png" alt="">
+                        <img src="./images/funFact-text.png" alt="">
+                    </div>
+                    <img src="" alt="">
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- products items SECTION -->
+    <section class="product-item-section">
+        <div class="container">
+            <div class="div-one">
+                <h2>GLUTEN-FREE FLATBREAD FLOUR</h2>
+                <h5>The Flatbread Whisperer</h5>
+                <p>Soft, stretchy, and surprisingly addictive. Makes 20 perfect chapathis that'll have your family
+                    asking for your secret. Tasteful Surprise: The secret is it's gluten-free!</p>
+                <img src="./images/origin-story/div-one-img.png" alt="">
+                <img class="div-one-art" src="./images/origin-story/AI_Image1-1.png" alt="">
+            </div>
+            <div class="div-one">
+                <img class="div-two-main" src="./images/origin-story/div-two-img.png" alt="">
+                <img class="div-two-art" src="./images/origin-story/AI_Image-2.png" alt="">
+                <h2>GLUTEN-FREE
+                    FLATBREAD FLOUR</h2>
+                <h5>The Flatbread Whisperer</h5>
+                <p>Soft, stretchy, and surprisingly addictive. Makes 20 perfect chapathis that'll have your family
+                    asking for your secret. Tasteful Surprise: The secret is it's gluten-free!</p>
+            </div>
+            <div class="div-one">
+                <h2>GLUTEN-FREE
+                    FLATBREAD FLOUR</h2>
+                <h5>The Flatbread Whisperer</h5>
+                <p>Soft, stretchy, and surprisingly addictive. Makes 20 perfect chapathis that'll have your family
+                    asking for your secret. Tasteful Surprise: The secret is it's gluten-free!</p>
+                <img src="./images/origin-story/div-three-img.png" alt="">
+                <img class="div-one-art" src="./images/origin-story/AI_Image-3.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- origin story section -->
+    <section id="origin-story-section">
+        <div class="container-app">
+            <div class="origin-text">
+                <div class="origin-text-top">
+                    <h1>The Origin Story: A Kitchen Revolution</h1>
+                    <h4>There was a Time...</h4>
+                    <p>When "gluten-free" meant "guilt-free". Where celiacs apologized for their dietary needs. Where
+                        gut-healthy food was seen as bland food.</p>
+                </div>
+                <div class="origin-text-bottom">
+                    <h4>Then Everything Changed.</h4>
+                    <p style="margin-bottom: 20px">When our founder Raguram Raghulal embraced a gluten-free lifestyle,
+                        he didn’t settle—he innovated. Like every gluten-free food seeker, he found himself asking the
+                        same questions: “Will I have to compromise on taste? Is it right for my palate? Will I miss out
+                        on delicious food?”</p>
+                    <p style="margin-bottom: 20px">He turned this concern and empathy into a tenacious drive towards
+                        making gluten-free cuisines desirable as any other loved tasty fare.</p>
+                    <p>Armed with decades of baking wizardry and an obsession with perfection, we set out to prove that
+                        gluten-free ingredients can indeed help you whip up the tastiest dishes. No love lost: only your
+                        tastebuds loving every bite.</p>
+                    <p>oday, we're rewriting the rules of what gluten-free can be. One delectable bite at a time.</p>
+                </div>
+            </div>
+            <div class="origin-sub-container">
+                <img src="/images/funFact.png" alt="">
+            </div>
+            <div class="origin-img">
+                <img src="./images/origin-story/pancake-img.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- taste revolution section -->
+    <section id="taste-revolution">
+        <div class="container-app">
+            <div class="head-content">
+                <h1>THE GROWING GLUTEN-FREE ARMY<br>Welcome to the Taste Revolution</h1>
+                <p>Who's Joining Our Growing Community</p>
+            </div>
+            <div class="taste-carousel-content">
+                <!-- shoelac code -->
+                <sl-carousel navigation pagination slides-per-page="2" slides-per-move="2">
+                    <sl-carousel-item style="background: #F8F8F8">
+                        <div class="slide-cont">
+                            <h4>The Family Heroes</h4>
+                            <h2>"Mixed dietary households made simple."</h2>
+                            <p>A safe food ingredient option that even the rest of the family can try.</p>
+                        </div>
+                    </sl-carousel-item>
+                    <sl-carousel-item><img src="./images/taste-revolution/img-one-taste.png" alt=""></sl-carousel-item>
+                    <sl-carousel-item style="background: #F8F8F8">
+                        <div class="slide-cont">
+                            <h4>The Family Heroes</h4>
+                            <h2>"Mixed dietary households made simple."</h2>
+                            <p>
+                                <ul class="slide-count-ul">
+                                <li>Ready to discover what "light and energetic" actually feels like</li>
+                                <li>Knows that gut-friendly food doesn't mean boring,but can be exciting.</li>
+                            </ul>
+                        </p>
+                        </div>
+                    </sl-carousel-item>
+                    <sl-carousel-item><img src="./images/taste-revolution/slider-two.png" alt=""></sl-carousel-item>
+                    <sl-carousel-item style="background: #F8F8F8">
+                        <div class="slide-cont">
+                            <h4>The Celiac Champions</h4>
+                            <h2>"Finally, food that doesn't make me feel like I deserve better”</h2>
+                            <p>
+                                <ul class="slide-count-ul">
+                                <li>You've been let down before, but we're different</li>
+                                <li>AOECS certified = internationally proven safe</li>
+                                <li>Every bite backed by 40+ celiac societies worldwide</li>
+                            </ul>
+                        </p>
+                        </div>
+                    </sl-carousel-item>
+                    <sl-carousel-item><img src="./images/taste-revolution/slider-three.png" alt=""></sl-carousel-item>
+                    <sl-carousel-item style="background: #F8F8F8">
+                        <div class="slide-cont">
+                            <h4>The Taste Rebels</h4>
+                            <h2>"I don't care about labels; I care about flavour"</h2>
+                            <p>
+                                <ul class="slide-count-ul">
+                                <li>Food lovers who refuse to compromise</li>
+                                <li>Why shouldn't I have indulgent food that's easy on my gut too.</li>
+                                <li>Making gluten eaters jealous since day one</li>
+                            </ul>
+                        </p>
+                        </div>
+                    </sl-carousel-item>
+                    <sl-carousel-item><img src="./images/taste-revolution/slider-four.png" alt=""></sl-carousel-item>
+                </sl-carousel>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- stay in to know section -->
+    <section id="stay-in-to-know">
+        <div class="container-app stay-in-to-know-heading">
+            <h1>Stay in to know</h1>
+        </div>
+        <div class="container-app">
+            <div class="box-div">
+                <div class="icon-top-bar">
+                    <div class="icon-design">
+                        <img src="./images/stay-in-to-know/ARTWORK.png" alt="">
+                    </div>
+                    <p>Reliteaur</p>
+                </div>
+                <div class="box-div-img">
+                    <img src="./images/stay-in-to-know/bg-one.png" alt="">
+                </div>
+                <div class="box-items-container">
+                    <div class="box-items-icon">
+                        <img src="./images/stay-in-to-know/heart-icon.png" alt="">
+                        <img src="./images/stay-in-to-know/message-icon.png" alt="">
+                        <img src="./images/stay-in-to-know/share-icon.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./images/stay-in-to-know/save-icon.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="box-div">
+                <div class="icon-top-bar">
+                    <div class="icon-design">
+                        <img src="./images/stay-in-to-know/ARTWORK.png" alt="">
+                    </div>
+                    <p>Reliteaur</p>
+                </div>
+                <div class="box-div-img">
+                    <img src="./images/stay-in-to-know/bg-one.png" alt="">
+                </div>
+                <div class="box-items-container">
+                    <div>
+                        <img src="./images/stay-in-to-know/heart-icon.png" alt="">
+                        <img src="./images/stay-in-to-know/message-icon.png" alt="">
+                        <img src="./images/stay-in-to-know/share-icon.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./images/stay-in-to-know/save-icon.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="box-div">
+                <div class="icon-top-bar">
+                    <div class="icon-design">
+                        <img src="./images/stay-in-to-know/ARTWORK.png" alt="">
+                    </div>
+                    <p>Reliteaur</p>
+                </div>
+                <div class="box-div-img">
+                    <img src="./images/stay-in-to-know/bg-three.png" alt="">
+                </div>
+                <div class="box-items-container">
+                    <div>
+                        <img src="./images/stay-in-to-know/heart-icon.png" alt="">
+                        <img src="./images/stay-in-to-know/message-icon.png" alt="">
+                        <img src="./images/stay-in-to-know/share-icon.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./images/stay-in-to-know/save-icon.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- the certification story -->
+    <section id="the-certification-story">
+        <img src="./images/the-certificate-story/roti.png" alt="">
+        <div class="container-app">
+            <div class="certificate-story-text-cont">
+                <h1>THE CERTIFICATION STORY</h1>
+                <p>Why AOECS Makes All the Difference</p>
+                <div class="text-div-one">
+                    <h5>The Gold Standard of Gluten-Free:</h5>
+                    <p>Imagine if there was a certification so rigorous, so internationally respected, that celiacs
+                        worldwide trusted it with their lives. That's AOECS.</p>
+                </div>
+                <div class="text-div-two">
+                    <h5>What Makes AOECS Special:</h5>
+                    <p>
+                    <ul>
+                        <li>40+ Celiac Societies: Across Europe and beyond</li>
+                        <li>Annual Facility Audits: No shortcuts, no compromises</li>
+                        <li>≤20ppm Guarantee: Stricter than most countries require</li>
+                        <li>23,000+ Certified Products: Worldwide trust network</li>
+                        <li>The Crossed Grain Symbol: Recognized globally</li>
+                    </ul>
+                    </p>
+                    <p class="div-two-para-lst">In India, we're practically Unicorns.</p>
+                </div>
+            </div>
+            <div class="certificate-story-img-container">
+                <div>
+                    <img src="./images/the-certificate-story/FunFact.png" alt="">
+                </div>
+                <div class="certificate-story-img-cont">
+                    <img src="./images/the-certificate-story/aoces-bg.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gluten-Free Trivia -->
+    <section id="gluten-free-trivia">
+        <div class="gluten-free-ctr-bg">
+            <img src="./images/gluten-free-trivia/pancake-ctr-bg.png" alt="">
+        </div>
+        <div class="container-app">
+            <div class="origin-text">
+                <div class="origin-text-top">
+                    <h1>Mind-Blowing Gluten-Free Trivia</h1>
+                </div>
+                <div class="gluten-free-science-fact">
+                    <h3>Science Facts:</h3>
+                    <div class="cont-box">
+                        <h5>Fiber Content</h5>
+                        <p>Gluten-free foods often have more fiber than wheat-based alternatives</p>
+                    </div>
+                    <div class="cont-box">
+                        <h5>Athletic Performance</h5>
+                        <p>Many Olympic athletes follow gluten-free diets for improved energy</p>
+                    </div>
+                    <div class="cont-box">
+                        <h5>Absorption Power</h5>
+                        <p>Psyllium husk (in our flour) can absorb 50 times its weight in water!</p>
+                    </div>
+                </div>
+                <div class="gluten-free-reliteaur-facts">
+                    <h3>Reliteaur Facts:</h3>
+                    <div class="cont-box">
+                        <h5>Recipe Development</h5>
+                        <p>Our founder taste-tested 200+ recipe iterations before perfection</p>
+                    </div>
+                    <div class="cont-box">
+                        <h5>Unique Certification</h5>
+                        <p>We're the only Indian brand with European Celiac Society approval</p>
+                    </div>
+                    <div class="cont-box">
+                        <h5>Versatile Mix</h5>
+                        <p>Our pancake mix can make 47 different recipes (we've counted!)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="origin-sub-container">
+                <img src="/images/funFact.png" alt="">
+            </div>
+            <div class="origin-img">
+                <img src="./images/gluten-free-trivia/gluten-free-trivia-bg.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- footer section -->
+    <footer id="footer">
+        <div class="container-app">
+            <div class="logo-footer">
+                <img src="./images/footer/logo-vertical.png" alt="">
+            </div>
+            <div class="footer-main-content">
+                <div class="footer-cont-top">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Recipe</a></li>
+                            <li><a href="">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-products">
+                        <h4>Products</h4>
+                        <ul>
+                            <li><a href="">Multipurpose Mix</a></li>
+                            <li><a href="">Chapathi Mix</a></li>
+                            <li><a href="">Pancake Mix</a></li>
+                        </ul>
+                    </div>
+                    <div class="Contact-us">
+                        <h4>Contact Us</h4>
+                        <ul>
+                            <li>Phone: 1800 425 4305</li>
+                            <li>GSTIN: 32AALCR7773F1Z3</li>
+                            <li>Email: customercare@eliteindia.com</li>
+                        </ul>
+                    </div>
+                    <div class="address-section">
+                        <h4>Address</h4>
+                        <p>37/40 A, Sidco Industrial Estate,
+                            Peringandoor.P.O, Athani, Peringandoor,
+                            Thrissur, Kerala, 680581
+                        </p>
+                    </div>
+                    <div class="follow-us">
+                        <h4>Follow us</h4>
+                        <dic class="social-link">
+                            <div><i class="fa-brands fa-facebook"></i></div>
+                            <div><i class="fa-brands fa-instagram"></i></div>
+                            <div><i class="fa-brands fa-linkedin"></i></div>
+                            <div><i class="fa-brands fa-twitter"></i></div>
+                        </dic>
+                    </div>
+                </div>
+                <div class="footer-cont-bottom">
+                    <p>© 2025 RELITEAUR FOODS PRIVATE LIMITED All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+<!-- javascript script js -->
+<script src="./js/script.js"></script>
 </body>
 </html>

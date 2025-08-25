@@ -1,0 +1,60 @@
+/* screen container size for all screen */
+/* Default (Large screens - 1920px and up) */
+.container {
+  max-width: 1850px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+.container-app {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* Up to 1650px */
+@media screen and (max-width: 1650px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 32px;
+  }
+}
+
+/* Up to 1366px */
+@media screen and (max-width: 1366px) {
+  .container {
+    max-width: 1140px;
+    padding: 0 28px;
+  }
+}
+
+/* Up to 1150px */
+@media screen and (max-width: 1150px) {
+  .container {
+    max-width: 960px;
+    padding: 0 24px;
+  }
+}
+
+/* Up to 950px */
+@media screen and (max-width: 950px) {
+  .container {
+    max-width: 800px;
+    padding: 0 20px;
+  }
+}
+
+/* Up to 768px (Tablet) */
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+}
+
+/* Up to 480px (Mobile) */
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 100%;
+    padding: 0 12px;
+  }
+}
