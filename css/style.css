@@ -130,7 +130,9 @@
 background:  rgba(240, 128, 0, 0.31);
 background-blend-mode: multiply;
 min-height: 119px; 
+display: flex;
 }
+
 
 .videobanner {
   position: absolute;
