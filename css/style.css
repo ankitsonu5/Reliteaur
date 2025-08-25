@@ -139,7 +139,7 @@
 
 .videobanner {
   position: absolute;
-  top: -32px;
+  top: -65px;
   left: 0;
   width: 100%;
   height: auto;
@@ -156,6 +156,7 @@
   display: flex;
   justify-content: space-between;
   padding: 36px 0 0 0;
+  align-items: center;
 }
 
 .header ul {
@@ -163,7 +164,11 @@
   gap: 48px;
   list-style-type: none;
 }
-
+.navbar {
+  background: rgba(240, 128, 0, 0.31);
+  background-blend-mode: multiply;
+  height: 114px;
+}
 navbar-lists
 .navbar ul li {
   list-style-type: none;
@@ -173,7 +178,24 @@ navbar-lists
   text-decoration: none;
   color: #fff;
 }
-
+.navbar .navbar-dropdown {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: 16px;
+  left: 36px;
+  text-align: center;
+  background: #ffa724;
+  border-radius: 11px;
+  font-weight: 400;
+}
+.navbar .navbar-dropdown li {
+  padding: 10px;
+}
+.navbar .navbar-dropdown li:not(:last-child) {
+  border-bottom: 1px solid #fff;
+}
 .active-menu {
   font-weight: 700;
 }
@@ -282,13 +304,29 @@ line-height: 35px; /* 145.833% */
   background: #f9f9f9;
   width: 450px;
   border-radius: 24px;
-  padding: 36px;
+  padding: 55px;
+  position: relative;
 }
-
+.div-one .div-one-art {
+  position: absolute;
+  right: 3rem;
+  bottom: 1rem;
+  width: 14rem;
+}
+.div-one .div-two-art {
+  position: absolute;
+  right: 1rem;
+  top: 8rem;
+  width: 14rem;
+}
 .div-one h2 {
   color: #F09600;
-  font-size: 42px;
   font-family: "Vina Sans";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px; /* 93.75% */
+  margin-bottom: 2.4rem;
 }
 
 .div-one h5 {
@@ -314,7 +352,10 @@ line-height: 35px; /* 145.833% */
 .div-one img {
   margin-top: 48px;
 }
-
+.div-two-main {
+  margin-top: 0 !important;
+  margin-bottom: 85px;
+}
 /* origin story section */
 #origin-story-section {
   background: url(../images/origin-story/origin-bg.png);
